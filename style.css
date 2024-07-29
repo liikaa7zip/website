@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(22, 232, 232);
+    font-family: sans-serif;
+}
+.form-box {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    padding: 10px;
+    border-radius: 8px;
+    width: 500px;
+}
+div {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
+button {
+    background-color: blue;
+    color: floralwhite;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    transition: 2s linear;
+}
+button:hover{
+    background-color: rgb(84, 54, 150);
+    border: none;
+    transform: translate(-10px);
+}
+
+
+
